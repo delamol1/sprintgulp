@@ -1,0 +1,324 @@
+*{
+  ;margin:auto;
+}
+
+body {
+color:#314a5b;
+
+  
+}
+
+.header {
+  width:1370px;
+  height:1057px; 
+  background:url(../img/background.png);
+  position:relative;
+}
+
+main {
+  
+  
+  
+  height:1210px;
+  width:1370px;
+
+}
+
+.bluedot {
+  color:#314a5b;
+}
+
+.logo{
+  position:absolute;
+  left:220px;
+  top:0;
+  background-color:#fa5c65;
+  width: 170px;
+  height: 75px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  color:white;
+  font-family: "Domine";
+  padding-left:15px;
+  padding-top:34px;
+  font-size:20px;
+}
+
+.navigation {
+  position:absolute;;
+  left:640px;
+  top:0px;
+  /* Style for "About" */
+  color: #263742;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight:600;
+  text-transform: uppercase;
+}
+
+.menue li{
+  display:inline-block;
+  list-style-type: none;
+  padding-left:46px;
+  }
+
+.menue a{
+    text-decoration: none;
+    }
+
+.social {
+  position:absolute;;
+  left:1140px;
+  top:-10px;
+}
+
+.social li{
+  display:inline-block;
+  list-style-type: none;
+  }
+
+.heading {
+  position:absolute;
+  left:220px;
+  top:300px;
+  /* Style for "intelligen" */
+  width: 710px;
+  height: 142px;
+  color: #314a5b;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.heading2 {
+position:absolute;
+left:220px;
+top:445px;
+/* Style for "We’re smal" */
+
+color: #314a5b;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.button {
+  position:absolute;
+  left:220px;
+  top:490px;
+  
+}
+
+.button button {
+  height:65px;
+  width:170px;
+  border-radius:8px;
+  border:none;
+  background-color: #fa5c65;
+  color:white;
+}
+
+.reddot{
+  color:red;
+}
+
+.snipepts{
+  /* Style for "Snippets" */
+display:flex;
+}
+
+.content{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.advantages{
+  padding-right:10px;
+  width:256px;
+  margin-left:0;
+}
+
+.advantages h2{
+  /* Style for "Free. Actu" */
+  width: 215px;
+  height: 46px;
+  color: #465065;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left:0;
+  padding-bottom:10px;
+}
+
+.advantages p {
+  /* Style for "No more pr" */
+  color: #9aa0ab;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.more{
+  /* Style for "More" */
+  color: #f0454c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-right:15px;
+}
+
+.title{
+  /* Style for "portfolio." */
+  
+  
+  color: #314a5b;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.portfolio{
+  height:1000px;
+  
+  }
+.mactext{
+  margin-top:20px;
+  display:inline-block;
+  
+}
+
+.macbook{
+  display:inline-block;
+  float:left;
+}
+
+
+.team {
+ 
+  
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
+.team h3{
+  /* Style for "We are sma" */
+
+  color: #314a5b;
+  font-family: "Open Sans";
+  font-size: 24px;
+}
+
+
+
+.text p {
+  /* Style for "No more pr" */
+  color: #9aa0ab;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.guys {
+  margin-top:150px;
+  height:400px;
+}
+
+.guys h2{
+  /* Style for "our team." */
+color: #314a5b;
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.guys h3{
+  /* Style for "They are b" */
+
+color: #9aa0ab;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.person {
+  display:inline-block;
+}
+
+.info {
+  float:right;
+  width:170px;
+  padding-left:25px;
+  padding-top:20px;
+}
+
+.info p{
+/* Style for "Coffee lov" */
+width: 134px;
+color: #9aa0ab;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 400;
+margin-left:0;
+
+}
+
+.info h3{
+  /* Style for "Web develo" */
+width: 99px;
+color: #f0454c;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 400;
+margin-left:0;
+}
+
+.person img {
+  padding-top:20px;
+}
+
+footer{
+ 
+  height:52px;
+  border-top: 1px solid#b9c0c6;
+  width:1370px;
+}
+footer p{
+  float:right;
+  /* Style for "© Freelanc" */
+height: 14px;
+color: #b9c0c6;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+padding:10px;
+}
+
+.footersocial{
+  display:inline-block;
+  float:left;
+}
+
+.footersocial ul li{
+  display:inline-block;
+  list-style-type: none;
+  padding:15px;
+  
+  }
+
+.footersocial a{
+    text-decoration: none;
+    }
+
