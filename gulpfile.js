@@ -20,7 +20,7 @@ gulp.task('default', function () {
 gulp.task('build', function () {
   return runSequence(
     'cleanDist',
-    ['processStyles', 'processHtml', 'processImages', 'processFonts']
+    ['processStyles', 'processHtml', 'processImages', 'processFonts', 'sass']
   );
 });
 
@@ -96,3 +96,6 @@ gulp.task('reloadBrowser', function (done) {
   browserSync.reload();
   done();
 });
+
+
+
